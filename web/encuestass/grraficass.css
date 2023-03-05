@@ -1,0 +1,73 @@
+body{
+     height: 100%;
+}
+
+
+html {
+    height: 100%;
+}
+
+
+.principal3{
+    background-color: #f4f4f4;
+   border-radius: 5px;
+    position: absolute;
+    width: 600px;
+    height: 2000px;
+    top: 5%;
+    left: 28%;
+}
+
+.regresar{
+    position: fixed;
+    left: 5%;
+    top: 75%;
+    width: 150px;
+    height: 150px;
+}
+
+.regre{
+    transition: all 500ms ease; 
+    width: 120px;
+    height: 120px;
+}
+
+.regre:hover{
+    width: 150px;
+    height: 150px
+}
+
+.bod3 {
+    background-image: url("../encuestass/img/back4.jpg");
+    height: 100%; 
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.dems{
+    position: fixed;
+    left: 79%;
+    top: 8%;
+    width: 150px;
+    height: 150px;
+}
+
+.ipn{
+    position: fixed;
+    left: 9%;
+    top: 7%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.ipns{
+    width: 200px;
+    height: 245px;
+}
+
+.demss{
+    width: 200px;
+    height: 205px;
+}

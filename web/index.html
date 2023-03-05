@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Index</title>
+        <link rel="stylesheet" href="encuestass/encuesta.css" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            
+            function encuesta(){
+                document.location.href = "encuesta.jsp";
+                
+            }
+            
+            function grafica(){
+                document.location.href = "grafica.jsp";
+            }
+            
+            function sesion(){
+                document.location.href = "iniciarSesion.jsp";
+            }
+            
+        </script>
+    </head>
+    <body class='bod'>
+    <div class="principal">
+            <div><h1><center>Escoja una opcion</center></h1></div>
+        
+            <br><br><br><br>
+        
+        <div>
+            
+            <div><center>
+                    <button onclick="encuesta()" class="botonE">Encuesta</button>
+                
+                    <button onclick="sesion()" class="botonG">Graficas</button>
+                </center>
+            </div>
+            
+        </div>
+    </div>
+        
+        <div class="ipn">
+            <img src="encuestass/img/ipn.png" class='ipns'>
+        </div>
+    <div class="dems">
+            <img src="encuestass/img/dems.png" class='demss' >
+        </div>
+    
+    </body>
+</html>
